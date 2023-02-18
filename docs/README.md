@@ -1,13 +1,12 @@
-# QUICK ORDER COMPONENT
+# HTML PDF COMPONENT
 
-Este es un componente personalizado que permite realizar una compra rápida ingresando el SKU de un producto de la tienda.
+Este es un componente personalizado que permite mostrar un archivo PDF en la página.
 
 En este componente se trabajó con las siguientes tecnologías:
 
 - Vtex.
 - React.
 - Typescript.
-- Css.
 
 ## imágenes del componente
 
