@@ -6,6 +6,7 @@ type Props = {
   height: number
 }
 
+
 const PdfReader = ({pdfUrl, width, height}: Props) => {
   const [mounted, SetMounted] = useState(false)
 
