@@ -1,28 +1,27 @@
 # HTML PDF COMPONENT
 
-Este es un componente personalizado que permite mostrar un archivo PDF en la página.
+This is a custom component that allows you to display a PDF file on the page.
 
-En este componente se trabajó con las siguientes tecnologías:
+In this component we worked with the following technologies:
 
 - Vtex.
 - React.
 - Typescript.
-
-## imágenes del componente
+## Component's image.
 
 ![pdf](https://user-images.githubusercontent.com/87024446/219835027-b7d3939f-2973-49eb-ae8f-2b85f39021a3.png)
 
 ## Configuration 
 
-### Paso 1 - Clonar
+### Step 1 - Clone
 
-Realizar la clonación del siguiente repositorio:
-- [Repositorio](https://github.com/Yesiblato/itgloberspartnercl-html-pdf)
+Clone the following repository:
+- [Repository](https://github.com/Yesiblato/itgloberspartnercl-html-pdf)
 
-### Paso 2 - Editar el Manifest.json 
+### Step 2 - Edit the Manifest.json 
 
-Ingresar al archivo manifest.json y realizar las siguentes modificaciones en: `vendor`, `name`, `version`, `title` y `description`
-como se muestra en el siguiente ejemplo: 
+Enter the manifest.json file and make the following changes to: `vendor`, `name`, `version`, `title` and `description`
+as shown in the following example:
 
 ```js
 {
@@ -33,7 +32,7 @@ como se muestra en el siguiente ejemplo:
   "description": "Lector de PDF",
 }
 ```
-Además, verifique que el archivo cuente con los siguientes builders: 
+Also, check that the file has the following builders and the dependencies:
 
 ```js
   "builders": {
@@ -43,23 +42,23 @@ Además, verifique que el archivo cuente con los siguientes builders:
     "store": "0.x"
   }
 ```
-### Paso 3 - Instalar node-modules
+### Step 3 - Install node-modules.
 
-Para realizar esta instalación de node-modules, debe estar ubicado en la carpeta de `react` de la aplicación y ejecutar el comando `yarn`, y tendrá instaladas todas las dependencias necesarias para usar esta plantilla.
+To carry out this installation of Node-Modules, it must be located in the `react` folder of the application and execute the `yarn` command, and will have all the necessary units to use this template installed.
 
-### Paso 4 - Ejecutar el preview
+### Step 4 - Execute the preview.
 
-Despues de realizar los pasos anteriores puede verificar si su componente está funcionando ejecutando el comando `vtex link` si todo funciona correctamente deberá ver en consola `Sending locale change event`.
+After performing the previous steps you can verify if its component is running by running the `Vtex Link` command if everything works correctly should see in` Sending locale change event`.
 
-Si la consola muestra algún error, por favor verificar los pasos anteriores y vuelva a ejecutar `vtex link`.
+If the console shows any error, please verify the previous steps and re -execute `vtex link`.
 
-### Paso 5 - Implementar el componente
+### Step 5 - Deploy the component
 
-Por último, para utilizar el componente debe agregarlo a las `dependencies` en el `manifest.json` de su tienda (store-theme) de la siguiente manera:
+Finally, to use the component you must add it to the `dependencies` in the `manifest.json` of your store (store-theme) as follows:
 
 - vendor.name : version. 
 
-Por ejemplo: 
+For example:
 ```js
   "dependencies": {
     "itgloberspartnercl.pdf-reader": "0.x",
